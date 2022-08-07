@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: honeydew;
+}
+.title h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+.mainWrapper {
+  margin: 0 auto;
+  width: 1000px;
+  height: auto;
+  background-color: white;
+  box-shadow: 6px 6px #989898, 12px 12px #6c6666;
+
+}
+.inputWrapper {
+
+}
+.inputTodo {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+
+.todo {
+  padding: 15px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.todoCheckbox {
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.todoDescription {
+  font-size: 26px;
+}
+.todoDescriptionChecked {
+  font-size: 26px;
+  color: #6c6666;
+  text-decoration: line-through;
+}
+
+.footerWrapper {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footerWrapper button {
+  font-size: 18px;
+  width: 140px;
+  background-color: honeydew;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+.footerWrapper button:hover {
+  background: rgba(0,0,0,0);
+
+  box-shadow: inset 0 0 0 1px #3a7999;
+}
